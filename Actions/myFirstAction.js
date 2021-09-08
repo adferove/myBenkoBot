@@ -1,5 +1,4 @@
-console.log("Welcome to BenkoBot "+new Trellinator().username());
-console.log("Welcome to BenkoBot "+new Trellinator().username());
-console.log("Welcome to BenkoBot "+new Trellinator().username());
-console.log("Welcome to BenkoBot "+new Trellinator().username());
-console.log("Welcome to BenkoBot "+new Trellinator().username());
+const sumSomething = (a,b)=>{
+  console.log("Doing it...");
+  return a + b;
+}
