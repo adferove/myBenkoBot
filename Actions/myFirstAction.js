@@ -1,8 +1,6 @@
-import { Component } from 'preact';
-import { route } from 'preact-router';
-
-export default class Redirect extends Component {
-  componentWillMount() {
-    route(this.props.to, true);
-  }
+const sumSomething = (a,b)=>{
+  console.log("Doing it...");
+  return a + b;
 }
+
+sumSomething(2,5);
